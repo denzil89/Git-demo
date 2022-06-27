@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="MAVEN_PROJ.PROJECT1.Title">
+        <methods>
+          <include name="start"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- MAVEN_PROJ.PROJECT1.Title -->
+      <class name="MAVEN_PROJ.PROJECT1.Homepage">
+        <methods>
+          <include name="start"/>
+          <include name="close"/>
+          <include name="basepagenavigation" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- MAVEN_PROJ.PROJECT1.Homepage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

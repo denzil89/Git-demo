@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 19.078 s <<< FAILURE! - in TestSuite
+MAVEN_PROJ.PROJECT1.Title.teardown  Time elapsed: 0.08 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:64029/devtools/browser/bed18352-addd-470b-84ee-1e2a638c3b7b
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-TNIE7GNR', ip: '192.168.50.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver
+	at MAVEN_PROJ.PROJECT1.Title.teardown(Title.java:55)
+
+MAVEN_PROJ.PROJECT1.homePage.teardown  Time elapsed: 1.131 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:55201/devtools/browser/f3c055eb-2904-41ef-b138-76c0147df682
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-TNIE7GNR', ip: '192.168.50.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver
+	at MAVEN_PROJ.PROJECT1.homePage.teardown(homePage.java:52)
+
